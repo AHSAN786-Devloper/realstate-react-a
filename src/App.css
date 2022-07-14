@@ -1,38 +1,263 @@
-.App {
-  text-align: center;
+/* COMMON */
+.padding-1 {
+    padding: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.padding-2 {
+    padding: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.padding-3 {
+    padding: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.padding-4 {
+    padding: 4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.width-30 {
+    /* width: 30% !important; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.width-50 {
+    width: 50% !important;
+    margin: auto;
+}
+
+.grey-bg {
+    background: #f8f9fc;
+}
+
+.text-center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.green {
+    color: #1f8f5d;
+}
+
+.grey {
+    color: darkgrey;
+}
+
+.fa-arrow-right {
+    color: #1f8f5d;
+}
+
+
+
+
+/* FOR FOOTER */
+.links-title {
+    font-weight: 800;
+    color: white;
+}
+
+/* FOR BRAND */
+#brand {
+    padding: 1rem;
+    background: #f8f9fc;
+    opacity: .7;
+}
+
+/* PROPERTY CARD */
+.property-service-card {
+    background: white;
+    width: 15%;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px 0px darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HOME- LATEST */
+.latest-post {
+    border: 1px solid darkgrey;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.latest-post-img>img {
+    max-height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.latest-post-extra {
+    justify-content: space-around;
+}
+
+/* HOME-TESTI */
+.awssld__content {
+    background-color: #f8f9fc !important;
+}
+
+.awssld__container {
+    padding: 12rem !important;
+}
+
+.home-testi {
+    padding: 10rem;
+}
+
+.testi-para {
+    color: black;
+    font-style: italic;
+    text-align: justify;
+}
+
+.red {
+    background-color: red !important;
+}
+
+.red-btn {
+    border: none;
+    border-radius: 15px;
+}
+
+.email-address {
+    border: none !important;
+}
+
+.combine-input {
+    padding: 0.5rem;
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 19px 0px #ffd0d0;
+    border-radius: 20px;
+}
+
+
+
+/* PD PAGE DESIGN START HERE */
+/* PD NAME AND ADDRESS */
+.dec-title>h4 {
+    border-left: 3px solid red;
+    padding: 0 0.5rem;
+}
+
+.property-details {
+    background-color: #f8f9fc;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.fnf-img{
+    padding: 10px 15px;
+    background: #f5f5f5;
+    border-radius: 100%;
+}
+.fnf{
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+.right-contact{
+    padding: 0.7rem;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    margin-top: 1rem;
+}
+.trp-img-img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+}
+.trp-content{
+    padding-left: 1rem;
+}
+.right-side .col-lg-10{
+    margin: auto;
+}
+
+/* HEAT MAP */
+.heat-table {
+    display: contents;
+}
+
+.heat-tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.heat-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.heat-border {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.heat-tr>td:nth-child(1) {
+    font-weight: 600;
+}
+
+.heat-tr>td:nth-child(3) {
+    color: #1f8f5d;
+}
+
+.form-control-new {
+    border-radius: 30px !important;
+    border: 1px solid #ddd !important;
+}
+.contact-card{
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HOME SLIDER */
+.home-slider-img {
+    max-height: 100vh;
+}
+
+.login {
+    align-items: center;
+}
+
+.list-free {
+    color: white;
+}
+
+.header-flex {
+    justify-content: space-between;
+}
+
+.header-search {
+    padding: 0.5rem;
+    border-radius: 40px;
+    background: white;
+    width: 45%;
+    box-shadow: 0 0 1px 0 black;
+}
+
+.header-search-btn {
+    background-color: #1f8f5d !important;
+    border: none;
+    padding: 0.5rem 2rem;
+    display: flex;
+}
+
+.search-btn-1 {
+    padding: 0 2rem;
+}
+
+.header-input {
+    border: none;
+}
+
+.hrader-para {
+    color: grey;
+    display: flex;
 }
