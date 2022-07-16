@@ -1,0 +1,65 @@
+.plus_icon h6 {
+  position: absolute;
+  left: 46%;
+  top: 15%;
+  font-size: 1rem;
+  color: rgb(163, 158, 158);
+}
+
+.services-list ul li {
+  background: #ffffff;
+  width: 65%;
+  height: 50px;
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.services-list ul li:first-child {
+  border-bottom: 1px solid rgb(110, 109, 109);
+  color: #000;
+  font-weight: 600;
+}
+.services-list ul li:nth-child(2) {
+  border-bottom: 1px solid rgb(110, 109, 109);
+  font-weight: 600;
+}
+.services-list ul li:nth-child(3) {
+  border-bottom: 1px solid rgb(110, 109, 109);
+  font-weight: 600;
+}
+.services-list ul li:nth-child(4) {
+  border-bottom: 1px solid rgb(110, 109, 109);
+  font-weight: 600;
+}
+.services-list ul li:nth-child(5) {
+  border-bottom: 1px solid rgb(110, 109, 109);
+  font-weight: 600;
+}
+.right-img2 img {
+  height: 35vh;
+  border-radius: 10px;
+}
+
+.menu-link h6 {
+  color: rgb(26, 25, 25);
+  margin-top: 10px;
+  font-size: 15px;
+}
+.menu-link h6:hover {
+  color: #1f8f5d;
+}
+.vertical-line {
+  display: inline-block;
+  border-left: 1px solid #ccc;
+  margin: 0 10px;
+  height: 125px;
+}
+.main_icon_set {
+  border-right: 1px solid #cccc;
+  height: 80px;
+}
+/* .right-img1 {
+  height: 500px;
+  border-right: 1px solid #cdcc;
+} */

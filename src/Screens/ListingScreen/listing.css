@@ -1,0 +1,124 @@
+#listingproperty {
+  background: #ffffff;
+  overflow-x: hidden;
+}
+.discover_text h2 {
+  position: absolute;
+  left: 17%;
+  top: 24%;
+  font-size: 20px;
+  font-weight: 800;
+}
+.sidebar {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px 20px;
+  margin: 5px;
+}
+.cekbox label {
+  margin-left: 6px;
+  color: rgb(128, 123, 123);
+}
+.cekbox input:active ~ #check {
+  background-color: #ccc;
+}
+.filter-price h6 {
+  color: rgb(128, 123, 123);
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+.location-input .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.range-filter {
+  display: flex;
+  justify-content: space-between;
+}
+input[type='range'] {
+  width: 100%;
+}
+/* ------pagination------- */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  margin-left: 10rem;
+}
+.pagination img {
+  width: 15px;
+  margin: 10px 20px;
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+  line-height: 40px;
+  background: rgb(240, 233, 233);
+  border-radius: 50%;
+  color: #fff;
+}
+.right-arrow {
+  transform: rotate(180deg);
+}
+.pagination span {
+  margin: 10px 8px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pagination .current {
+  background: #333;
+  color: #fff;
+}
+.second {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: rgb(240, 233, 233);
+  border-radius: 50%;
+}
+.btn {
+  border: 1px solid rgb(177, 174, 174);
+  border-radius: 50px;
+}
+/* ------search box---- */
+.search-box {
+  background: #fff;
+  width: 70%;
+  margin: 30px auto;
+  padding: 6px 10px 6px 30px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.search-box input {
+  display: block;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.search-box button {
+  background: #ff0318;
+  padding: 9px;
+  color: #fff;
+  border-radius: 50px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-left: 13rem;
+}
+.location-input span i {
+  display: flex;
+  justify-content: flex-start;
+}

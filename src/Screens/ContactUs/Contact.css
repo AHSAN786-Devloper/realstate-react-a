@@ -1,0 +1,14 @@
+.inputContainer {
+  position: relative;
+}
+.inputIcon {
+  position: absolute;
+  top: 15%;
+  right: 3%;
+  font-size: 1.2rem;
+}
+.Contact_text h2 {
+  position: absolute;
+  left: 14%;
+  top: 22%;
+}
